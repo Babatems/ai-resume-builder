@@ -1,0 +1,30 @@
+{
+  "name": "ai-resume-builder-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for AI Resume Builder",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "keywords": ["resume", "react", "vite"],
+  "author": "Babatems",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0",
+    "axios": "^1.4.0",
+    "tailwindcss": "^3.3.0",
+    "framer-motion": "^10.12.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.3.0",
+    "vitest": "^0.32.0",
+    "postcss": "^8.4.24",
+    "autoprefixer": "^10.4.14"
+  }
+}
